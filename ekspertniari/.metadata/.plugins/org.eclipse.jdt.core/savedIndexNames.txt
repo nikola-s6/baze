@@ -1,0 +1,5 @@
+INDEX VERSION 1.126+C:\Users\nikol\faks\cetvrta godina\drugi semestar\inteligentni sistemi\ekspertniari\.metadata\.plugins\org.eclipse.jdt.core
+1993070247.index
+968752199.index
+3683695242.index
+2246957986.index

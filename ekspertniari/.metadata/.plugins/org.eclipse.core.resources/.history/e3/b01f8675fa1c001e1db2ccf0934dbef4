@@ -1,0 +1,76 @@
+package com.sample
+ 
+import com.sample.Krov;
+ 
+rule "Rule 2"
+    when
+        k : Krov( prokisnjava.contains("sredina"), ulegao == true, !potrebniRadovi.contains("zamena krovne konstrukcije") )
+    then
+        System.out.println( "Rule 2" );
+        k.dodajRadove("zamena krovne konstrukcije");
+        k.setCena(k.getCena() + 1000 + (10*k.getKvadratura())
+        update( k );
+end
+
+rule "Rule 3"
+    when
+        k : Krov( prokisnjava.contains("sredina"), brojNedostajucihCrepova > 0, !potrebniRadovi.contains("zamena crepova") )
+    then
+        System.out.println( "Rule 3" );
+        k.dodajRadove("zamena crepova");
+        k.setCena(k.getCena() + 2 * k.getBrojNedostajucihCrepova());
+        update( k );
+end
+
+
+rule "Rule 4"
+    when
+        k : Krov( prokisnjava.contains("sredina"), brojNedostajucihCrepova == 0, ulegao == false, !potrebniRadovi.contains("pregled krova") )
+    then
+        System.out.println( "Rule 4" );
+        k.dodajRadove("pregled krova");
+        k.setCena(k.getCena() + 200);
+        update( k );
+end
+
+rule "Rule 5"
+    when
+        k : Krov( prokisnjava.contains("odzak"), !potrebniRadovi.contains("olucarski radovi") )
+    then
+        System.out.println( "Rule 5" );
+        k.dodajRadove("olucarski radovi");
+        k.setCena(k.getCena() + 50);
+        update( k );
+end
+
+rule "Rule 6"
+    when
+        k : Krov( prokisnjava.contains("ivica"), oluciZardjali == true, drvoSaKrosnjom == true, (!potrebniRadovi.contains("zamena oluka") || !potrebniRadovi.contains("skracivanje krosnje")) )
+    then
+        System.out.println( "Rule 6" );
+        k.dodajRadove("zamena oluka");
+        k.dodajRadove("skracivanje krosnje");
+        k.setCena(k.getCena() + 300 + 50);
+        update( k );
+end
+
+rule "Rule 7"
+    when
+        k : Krov( prokisnjava.contains("ivica"), oluciZardjali == false, drvoSaKrosnjom == true, (!potrebniRadovi.contains("skracivanje krosnje") || !potrebniRadovi.contains("ciscenje oluka")) )
+    then
+        System.out.println( "Rule 7" );
+        k.dodajRadove("skracivanje krosnje");
+        k.dodajRadove("ciscenje oluka");
+        k.setCena(k.getCena() + 20 + 50);
+        update( k );
+end
+
+rule "Rule 8"
+    when
+        k : Krov( prokisnjava.contains("zid") || prokisnjava.contains("ivica"), oluciZardjali == true, !potrebniRadovi.contains("zamena oluka") )
+    then
+        System.out.println( "Rule 8" );
+        k.dodajRadove("zamena oluka");
+        k.setCena(k.getCena() + 20 + 50);
+        update( k );
+end

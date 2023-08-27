@@ -1,0 +1,44 @@
+package com.sample
+ 
+import com.sample.Automobil;
+ 
+
+rule "Rule 1"
+    when
+        a : Automobil( snaga <= 40 )
+    then
+        a.setCena(10000);
+        update( m );
+end
+
+rule "Rule 2"
+    when
+        a : Automobil( snaga > 40, snaga <= 50 )
+    then
+        a.setCena(11000);
+        update( m );
+end
+
+rule "Rule 3"
+    when
+        a : Automobil( snaga > 50, snaga <= 75 )
+    then
+        a.setCena(15000);
+        update( m );
+end
+
+rule "Rule 4"
+    when
+        a : Automobil( snaga > 75 )
+    then
+        a.setCena(25000);
+        update( m );
+end
+
+rule "Rule 5.1"
+    when
+        a : Automobil( premijskiStepen == 1, (cena == 10000 || cena == 11000 || cena == 15000 || cena == 25000) )
+    then
+        a.setCena(a.getCena * 0.85);
+        update( m );
+end

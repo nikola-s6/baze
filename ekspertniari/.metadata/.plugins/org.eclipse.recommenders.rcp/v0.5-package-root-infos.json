@@ -1,0 +1,522 @@
+[
+  {
+    "symbolicName": "org.kie.api",
+    "version": {
+      "major": 6,
+      "minor": 2,
+      "micro": 0,
+      "qualifier": "201503042108"
+    },
+    "jarFileFingerprint": "e5aeb6c05f439135861c6dc280677119be164a7b",
+    "jarFileModificationDate": "2023-07-02T22:45:04.633+02:00",
+    "location": "C:\\Users\\nikol\\faks\\cetvrta godina\\drugi semestar\\inteligentni sistemi\\droolsjar\\kie-api.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "4f048338b40e87fe7cb79f3c30002cf489638c20",
+    "jarFileModificationDate": "2020-10-09T13:48:32.294+02:00",
+    "location": "C:\\Program Files\\Java\\jre1.8.0_261\\lib\\ext\\access-bridge-64.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "org.jbpm.flow.builder",
+    "version": {
+      "major": 6,
+      "minor": 2,
+      "micro": 0,
+      "qualifier": "201503042151"
+    },
+    "jarFileFingerprint": "3ec21ff0953269c8a0839191fda9facfd43dbca6",
+    "jarFileModificationDate": "2023-07-02T22:45:04.626+02:00",
+    "location": "C:\\Users\\nikol\\faks\\cetvrta godina\\drugi semestar\\inteligentni sistemi\\droolsjar\\jbpm-flow-builder.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "org.jbpm.bpmn2",
+    "version": {
+      "major": 6,
+      "minor": 2,
+      "micro": 0,
+      "qualifier": "201503042151"
+    },
+    "jarFileFingerprint": "2180a0a2d5f300933cfc371ac9140f661fd8ecc5",
+    "jarFileModificationDate": "2023-07-02T22:45:04.624+02:00",
+    "location": "C:\\Users\\nikol\\faks\\cetvrta godina\\drugi semestar\\inteligentni sistemi\\droolsjar\\jbpm-bpmn2.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "xstream",
+    "version": {
+      "major": 1,
+      "minor": 4,
+      "micro": 7,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "bce3282142b63068260f021fcbe48b72e8d71a1a",
+    "jarFileModificationDate": "2023-07-02T22:45:04.651+02:00",
+    "location": "C:\\Users\\nikol\\faks\\cetvrta godina\\drugi semestar\\inteligentni sistemi\\droolsjar\\xstream.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "org.antlr.antlr-runtime",
+    "version": {
+      "major": 3,
+      "minor": 5,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "0baa82bff19059401e90e1b90020beb9c96305d7",
+    "jarFileModificationDate": "2023-07-02T22:45:04.608+02:00",
+    "location": "C:\\Users\\nikol\\faks\\cetvrta godina\\drugi semestar\\inteligentni sistemi\\droolsjar\\antlr-runtime.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "a516d1a0dcaefb1193d7b81f590e164b79618067",
+    "jarFileModificationDate": "2020-10-09T13:48:32.349+02:00",
+    "location": "C:\\Program Files\\Java\\jre1.8.0_261\\lib\\ext\\sunec.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "slf4j.api",
+    "version": {
+      "major": 1,
+      "minor": 7,
+      "micro": 2,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "0081d61b7f33ebeab314e07de0cc596f8e858d97",
+    "jarFileModificationDate": "2023-07-02T22:45:04.647+02:00",
+    "location": "C:\\Users\\nikol\\faks\\cetvrta godina\\drugi semestar\\inteligentni sistemi\\droolsjar\\slf4j-api.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "org.kie.internalapi",
+    "version": {
+      "major": 6,
+      "minor": 2,
+      "micro": 0,
+      "qualifier": "201503042108"
+    },
+    "jarFileFingerprint": "e9c276102d5e8a65346dea34130ce4a9fd1ddd4c",
+    "jarFileModificationDate": "2023-07-02T22:45:04.634+02:00",
+    "location": "C:\\Users\\nikol\\faks\\cetvrta godina\\drugi semestar\\inteligentni sistemi\\droolsjar\\kie-internal.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "0aff5955307de62ff860116d672523748cd43627",
+    "jarFileModificationDate": "2020-10-09T13:48:32.346+02:00",
+    "location": "C:\\Program Files\\Java\\jre1.8.0_261\\lib\\ext\\nashorn.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "org.eclipse.jdt.core",
+    "version": {
+      "major": 3,
+      "minor": 9,
+      "micro": 2,
+      "qualifier": "v20140114-1555"
+    },
+    "jarFileFingerprint": "a37fce6ebabea1ad21399c2f74ce955d10349e3b",
+    "jarFileModificationDate": "2023-07-02T22:45:04.664+02:00",
+    "location": "C:\\Users\\nikol\\faks\\cetvrta godina\\drugi semestar\\inteligentni sistemi\\droolsjar\\org.eclipse.jdt.core_3.9.2.v20140114-1555.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "org.drools.drools-jsr94",
+    "version": {
+      "major": 6,
+      "minor": 2,
+      "micro": 0,
+      "qualifier": "Final"
+    },
+    "jarFileFingerprint": "0cd24f17c1d22ffcea505a5e1e89afe4aa847bbf",
+    "jarFileModificationDate": "2023-07-02T22:45:04.621+02:00",
+    "location": "C:\\Users\\nikol\\faks\\cetvrta godina\\drugi semestar\\inteligentni sistemi\\droolsjar\\drools-jsr94.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "poi-ooxml",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "0c62b1db67f2a7cafd4dd55c41256a2fa0793191",
+    "jarFileModificationDate": "2023-07-02T22:45:04.639+02:00",
+    "location": "C:\\Users\\nikol\\faks\\cetvrta godina\\drugi semestar\\inteligentni sistemi\\droolsjar\\poi-ooxml.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "210c7af9b977875c146aa1eebf140d008e98a827",
+    "jarFileModificationDate": "2020-10-09T13:48:32.445+02:00",
+    "location": "C:\\Program Files\\Java\\jre1.8.0_261\\lib\\jce.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "fecb95dd2c4e617102e6293b6c6a20f919736e22",
+    "jarFileModificationDate": "2020-10-09T13:48:32.459+02:00",
+    "location": "C:\\Program Files\\Java\\jre1.8.0_261\\lib\\jfr.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "47e7380c95dfd0b711a95fa1d2c8fee587e366a2",
+    "jarFileModificationDate": "2020-10-09T13:48:35.762+02:00",
+    "location": "C:\\Program Files\\Java\\jre1.8.0_261\\lib\\jsse.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "12a1d947210e551ec9abf0098a9db0a190cf0f12",
+    "jarFileModificationDate": "2020-10-09T13:48:32.306+02:00",
+    "location": "C:\\Program Files\\Java\\jre1.8.0_261\\lib\\ext\\dnsns.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "eda7dacb0d85642830bc5b80ab4759af9ba5effe",
+    "jarFileModificationDate": "2020-10-09T13:48:32.337+02:00",
+    "location": "C:\\Program Files\\Java\\jre1.8.0_261\\lib\\ext\\jfxrt.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "xmlpull",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "2b8e230d2ab644e4ecaa94db7cdedbc40c805dfa",
+    "jarFileModificationDate": "2023-07-02T22:45:04.648+02:00",
+    "location": "C:\\Users\\nikol\\faks\\cetvrta godina\\drugi semestar\\inteligentni sistemi\\droolsjar\\xmlpull.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "junit",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "4e031bb61df09069aeb2bffb4019e7a5034a4ee0",
+    "jarFileModificationDate": "2023-07-02T22:45:04.631+02:00",
+    "location": "C:\\Users\\nikol\\faks\\cetvrta godina\\drugi semestar\\inteligentni sistemi\\droolsjar\\junit.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "com.google.protobuf",
+    "version": {
+      "major": 2,
+      "minor": 5,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "a10732c76bfacdbd633a7eb0f7968b1059a65dfa",
+    "jarFileModificationDate": "2023-07-02T22:45:04.645+02:00",
+    "location": "C:\\Users\\nikol\\faks\\cetvrta godina\\drugi semestar\\inteligentni sistemi\\droolsjar\\protobuf-java.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "xpp3_min",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "19d4e90b43059058f6e056f794f0ea4030d60b86",
+    "jarFileModificationDate": "2023-07-02T22:45:04.649+02:00",
+    "location": "C:\\Users\\nikol\\faks\\cetvrta godina\\drugi semestar\\inteligentni sistemi\\droolsjar\\xpp3_min.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jsr94",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "651cc23761346b8973c6e2679bc03243748d06e0",
+    "jarFileModificationDate": "2023-07-02T22:45:04.629+02:00",
+    "location": "C:\\Users\\nikol\\faks\\cetvrta godina\\drugi semestar\\inteligentni sistemi\\droolsjar\\jsr94.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "3efe44d95d82b8de633cdbca9b4824035b0dd5d5",
+    "jarFileModificationDate": "2020-10-09T13:48:32.353+02:00",
+    "location": "C:\\Program Files\\Java\\jre1.8.0_261\\lib\\ext\\sunjce_provider.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "org.jbpm.flow.core",
+    "version": {
+      "major": 6,
+      "minor": 2,
+      "micro": 0,
+      "qualifier": "201503042151"
+    },
+    "jarFileFingerprint": "bc61c7d110bf58fb89021b21fc9994e830ac780c",
+    "jarFileModificationDate": "2023-07-02T22:45:04.628+02:00",
+    "location": "C:\\Users\\nikol\\faks\\cetvrta godina\\drugi semestar\\inteligentni sistemi\\droolsjar\\jbpm-flow.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "6726b8020924789a61c65b5498cec764a2c12d99",
+    "jarFileModificationDate": "2020-10-09T13:48:32.356+02:00",
+    "location": "C:\\Program Files\\Java\\jre1.8.0_261\\lib\\ext\\sunmscapi.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "1553a3543acce691109869876dc84f9eb59afec7",
+    "jarFileModificationDate": "2020-10-09T13:48:32.506+02:00",
+    "location": "C:\\Program Files\\Java\\jre1.8.0_261\\lib\\resources.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "427e03990d851ca34ac0d9546dc8661d93e5189d",
+    "jarFileModificationDate": "2020-10-09T13:48:35.605+02:00",
+    "location": "C:\\Program Files\\Java\\jre1.8.0_261\\lib\\rt.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "170f43c9de191542dbafe59372bddc6e57489fcf",
+    "jarFileModificationDate": "2020-10-09T13:48:32.309+02:00",
+    "location": "C:\\Program Files\\Java\\jre1.8.0_261\\lib\\ext\\jaccess.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "org.drools.compiler",
+    "version": {
+      "major": 6,
+      "minor": 2,
+      "micro": 0,
+      "qualifier": "201503042125"
+    },
+    "jarFileFingerprint": "15ff9473489ed3adbf1394332c5d10ee8d468127",
+    "jarFileModificationDate": "2023-07-02T22:45:04.611+02:00",
+    "location": "C:\\Users\\nikol\\faks\\cetvrta godina\\drugi semestar\\inteligentni sistemi\\droolsjar\\drools-compiler.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "poi",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "95174823e13aa828cb715b542e647e56096ffcb2",
+    "jarFileModificationDate": "2023-07-02T22:45:04.643+02:00",
+    "location": "C:\\Users\\nikol\\faks\\cetvrta godina\\drugi semestar\\inteligentni sistemi\\droolsjar\\poi.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "dc8d044277cd72647a55127506d5d2d21eba89f9",
+    "jarFileModificationDate": "2020-10-09T13:48:32.360+02:00",
+    "location": "C:\\Program Files\\Java\\jre1.8.0_261\\lib\\ext\\sunpkcs11.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "org.drools.templates",
+    "version": {
+      "major": 6,
+      "minor": 2,
+      "micro": 0,
+      "qualifier": "201503042125"
+    },
+    "jarFileFingerprint": "990afd407e0da7307b231db70fe364e919bfc90e",
+    "jarFileModificationDate": "2023-07-02T22:45:04.623+02:00",
+    "location": "C:\\Users\\nikol\\faks\\cetvrta godina\\drugi semestar\\inteligentni sistemi\\droolsjar\\drools-templates.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "a7a5f196680da4e06213eb734d04ba5b2e26a78c",
+    "jarFileModificationDate": "2020-10-09T13:48:32.302+02:00",
+    "location": "C:\\Program Files\\Java\\jre1.8.0_261\\lib\\ext\\cldrdata.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "767ea13ea7525e973c5f8b0207cbd035cdaabe2f",
+    "jarFileModificationDate": "2020-10-09T13:48:36.087+02:00",
+    "location": "C:\\Program Files\\Java\\jre1.8.0_261\\lib\\ext\\localedata.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "org.drools.core",
+    "version": {
+      "major": 6,
+      "minor": 2,
+      "micro": 0,
+      "qualifier": "201503042125"
+    },
+    "jarFileFingerprint": "ceb9412af268b01a72a83cf95b9aa8eda327939b",
+    "jarFileModificationDate": "2023-07-02T22:45:04.618+02:00",
+    "location": "C:\\Users\\nikol\\faks\\cetvrta godina\\drugi semestar\\inteligentni sistemi\\droolsjar\\drools-core.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "f0b25154eeba5b58620c769ee42552c092870469",
+    "jarFileModificationDate": "2020-10-09T13:48:35.911+02:00",
+    "location": "C:\\Program Files\\Java\\jre1.8.0_261\\lib\\charsets.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "org.drools.decisiontables",
+    "version": {
+      "major": 6,
+      "minor": 2,
+      "micro": 0,
+      "qualifier": "201503042125"
+    },
+    "jarFileFingerprint": "5887ae0aa582ba146b7ee5c9c2099f1214b0906f",
+    "jarFileModificationDate": "2023-07-02T22:45:04.620+02:00",
+    "location": "C:\\Users\\nikol\\faks\\cetvrta godina\\drugi semestar\\inteligentni sistemi\\droolsjar\\drools-decisiontables.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "68f397d7cc9851b8f93b74c909d6e4c0128743c6",
+    "jarFileModificationDate": "2020-10-09T13:48:32.363+02:00",
+    "location": "C:\\Program Files\\Java\\jre1.8.0_261\\lib\\ext\\zipfs.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "org.mvel2",
+    "version": {
+      "major": 2,
+      "minor": 2,
+      "micro": 4,
+      "qualifier": "Final"
+    },
+    "jarFileFingerprint": "7d5d6e30b42d0e89971a79b799238bb79b9d0c0c",
+    "jarFileModificationDate": "2023-07-02T22:45:04.636+02:00",
+    "location": "C:\\Users\\nikol\\faks\\cetvrta godina\\drugi semestar\\inteligentni sistemi\\droolsjar\\mvel2.jar",
+    "javaRuntime": false
+  }
+]

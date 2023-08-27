@@ -1,0 +1,59 @@
+----------------- Linearna regresija -------------------------
+
+1. damo sa numerickim
+2. matrica korelacije
+3. vif
+4. createDataPartition
+5. provera linearnosti sa izlaznom
+6. pravljenje modela
+7. crtanje grafika
+8. predikcije
+9. metrike
+
+------------------- Stablo ------------------------
+
+1. radi sa svim, izlazna je faktorska
+2. pravljenje izlazne i izbacivanje
+3. createDataPartition
+4. kros validacija (0.001, 0.05, 0.001)
+5. pravljenje modela
+6. predikcije
+7. matrica konfuzije i metrike
+
+------------------- KNN ---------------------------
+
+1. radi sa numerickim - isti opsezi
+2. pravljenje izlazne i izbacivanje
+3. skaliranje (ako nemaju outliere moze normalizacija ako imaju onda standardizacija)
+3. createDataPartition
+4. kros validacija (3, 25, 2)
+5. pravljenje modela (predikcije direktno iz modela)
+6. matrica konfuzije i metrike
+
+------------------- NB ----------------------------
+
+1. radi sa numerickim i faktorskim ali numericke moraju da imaju normalnu raspodelu
+2. discretize za one koji nemaju normalnu
+3. pravljenje izlazne i izbacivanje
+4. createDataPartition
+5. pravljenje modela
+6. predikcije (class ili row)
+7. roc kriva (u cheatsheetu fali as.numeric i levels)
+8. matrica konfuzije i metrike
+
+
+------------------ KMEANS -------------------------
+
+1. radi sa numerickim koje imaju isti opseg
+2. skaliranje
+3. matrica korelacije
+4. elbow metoda (pravljenje modela za razlicito k)
+5. pravljenje najboljeg modela
+6. summary stats
+
+
+
+
+
+------------- nema u cheatsheatu ---------------------
+data.std <- apply(data[,-10], 2, function(x) scale(x, median(x), IQR(x)))
